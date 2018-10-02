@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 import PropTypes from 'prop-types'; 
 // to do property validation in our component
@@ -24,7 +24,7 @@ export default function EventCard({event}) {
     );
 }
 
-EventCard.PropTypes = {
+EventCard.propTypes = {
     event: PropTypes.shape({
         title: PropTypes.string.isRequired,
         date: PropTypes.instanceOf(Date)

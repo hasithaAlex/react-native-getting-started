@@ -1,6 +1,8 @@
 import React from 'react';
 import { FlatList, Text } from 'react-native';
 
+import EventCard from './EventCard'
+
 class EventList extends React.Component {
     state = { 
         events: [] //default state
@@ -15,7 +17,7 @@ class EventList extends React.Component {
         return (
             <FlatList 
                 data={this.state.events}
-                renderItem={({item}) => <Text>{item.title}</Text>}
+                renderItem={({item}) => <EventCard event={item}/>}
                 keyExtractor={item => item.id} 
             />
         )
