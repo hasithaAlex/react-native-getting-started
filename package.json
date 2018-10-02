@@ -15,7 +15,8 @@
     "react-moment": "^0.8.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
     "react-navigation": "^2.17.0",
-    "react-native-action-button": "2.8.4"
+    "react-native-action-button": "2.8.4",
+    "react-native-modal-datetime-picker": "4.13.0"
   },
   "devDependencies": {
     "react-native-debugger-open": "^0.3.17"
