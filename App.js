@@ -18,7 +18,7 @@ export default StackNavigator({
         title: 'Your Events',
       })
     },
-    vform: {
+     form: {
       screen: EventForm,
       navigationOptions: () => ({
         title: 'Your Events',
