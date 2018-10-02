@@ -1,8 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import PropTypes from 'prop-types'; // to do property validation in our component
 
-import PropTypes from 'prop-types'; 
-// to do property validation in our component
 
 import { 
     formatDate,
