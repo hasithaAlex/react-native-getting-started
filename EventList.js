@@ -39,6 +39,7 @@ class EventList extends React.Component {
     }
 
     render() {
+        this.handleAddEvent()
         return [
             <FlatList style={styles.list}
                 data={this.state.events}
